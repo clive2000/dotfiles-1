@@ -110,13 +110,13 @@ bindsym $mod+Right focus right
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicoln move right
+bindsym $mod+Shift+semicolon move right
 
 # move focused window - cursor style
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicoln move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
@@ -137,7 +137,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shfit+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -220,7 +220,7 @@ bindsym $mod+Return exec $term -e tmux
 bindsym $mod+Shift+Return exec $term
 bindsym $mod+F2 exec firefox
 bindsym $sup+r exec $term -name ranger -e ranger
-bindsym $mod+r exec $term -name ranger -e ranger
+#bindsym $mod+r exec $term -name ranger -e ranger
 #bindsym $sup+n exec $term -name ncmpcpp -e ncmpcpp; exec --no-startup-id mpc random on; exec --no-startup-id mpc repeat on
 bindsym $sup+t exec $term -name gtop -e gtop
 #bindsym $sup+c exec $term -name cava -e cava
