@@ -308,6 +308,9 @@ bindsym $mod+Shift+d exec sh ~/Scripts/rofi.sh window
 # Restore wallpaper setup
 exec --no-startup-id nitrogen --restore
 
+# Call wal.sh
+exec --no-startup-id sh ~/Scripts/wal.sh
+
 # Wal, dunst and polybar combined - waiting for wal values first
 # Currently wait a bit before executing due to a known bug
 # https://bbs.archlinux.org/viewtopic.php?id=200797
