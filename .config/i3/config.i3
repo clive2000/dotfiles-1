@@ -306,7 +306,7 @@ bindsym $mod+Shift+d exec sh ~/Scripts/rofi.sh window
 #exec --no-startup-id sh ~/Scripts/nvidia.sh; nitrogen --restore
 
 # Restore wallpaper setup
-#exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 
 # Wal, dunst and polybar combined - waiting for wal values first
 # Currently wait a bit before executing due to a known bug
